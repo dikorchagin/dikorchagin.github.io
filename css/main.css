@@ -368,6 +368,7 @@ font-family: 'Raleway', sans-serif;
         top: 0;
         left: 0;
         width: 100%;
+        z-index: 100;
     }
     
     .head-first-line__menu{
@@ -404,5 +405,25 @@ font-family: 'Raleway', sans-serif;
     .dropcaps {
         width: 90%;
         max-width: 90%;
+    }
+    
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .footer__logo {
+        display: none;
+    }
+    
+    .footer__social-icon {
+        padding-bottom: 20px;
+        position: static;
+        display: block;
+    }
+
+    .footer__copyright {
+        position: static;
+        display: block;
     }
 }
