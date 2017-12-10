@@ -202,6 +202,16 @@ font-family: 'Raleway', sans-serif;
     color: #000000;
 }
 
+.newsblock-small__key-window {
+    position: absolute;
+    top: 35px;
+    right: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
 
 .newsblock-small__text-small {
     font-family: 'Open Sans', sans-serif;
@@ -294,6 +304,47 @@ font-family: 'Raleway', sans-serif;
     background-color: #ff3c1f;
     padding: 5px;
     padding-bottom: 7px;
+}
+
+.popup-window {
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50%;
+    max-height: 50%;
+}
+
+.popup-window__content {
+    font-family: 'Open Sans', sans-serif;
+    color: #4e5860;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.popup-window__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.popup-window__close-key {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
 }
 
 .footer {

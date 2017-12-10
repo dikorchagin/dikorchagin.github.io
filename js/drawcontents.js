@@ -19,6 +19,7 @@ $(document).ready(function() {
                   return <div class="newsblock-small">
                             <div class={this.props.type}>{this.props.title}</div>
                             <div class="newsblock-small__key">+</div>
+                            <div class="newsblock-small__key-window">W</div>
                             <div class="newsblock-small__text-small">{this.props.textSmall}</div>
                             <div class="newsblock-small__text-full">{this.props.text}</div>
                         </div>
