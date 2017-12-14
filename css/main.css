@@ -116,7 +116,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 .page {
-    width: 100%;
     max-width: 1600px;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -124,15 +123,21 @@ font-family: 'Raleway', sans-serif;
     font-size: 0px;
 }
 
+.page_left {
+    text-align: left;
+}
+
 .page > * {
+    box-sizing: border-box;
     display: inline-block;
-    margin: 35px 25px;
+    padding: 35px 25px;
     vertical-align: top;
 }
 
+
 .newsblock {
     position: relative;
-    max-width: 360px;
+    width: 33%;
     text-align: left;
 }
 
@@ -143,7 +148,7 @@ font-family: 'Raleway', sans-serif;
     color: #000000;
     position: absolute;
     top: 30px;
-    left: 0;
+    left: 25px;
 }
 
 .newsblock-small__title {
@@ -153,7 +158,7 @@ font-family: 'Raleway', sans-serif;
     color: #000000;
     position: absolute;
     top: 30px;
-    left: 0;
+    left: 25px;
 }
 
 .newsblock__title_h2 {
@@ -186,7 +191,7 @@ font-family: 'Raleway', sans-serif;
 
 .newsblock-small {
     position: relative;
-    max-width: 360px;
+    width: 33%;
     text-align: left;
 }
 
@@ -439,6 +444,14 @@ font-family: 'Raleway', sans-serif;
     .body {
         margin: 30px 25px;
     }
+    
+    .newsblock {
+        width: 50%;
+    }
+    
+    .newsblock-small {
+        width: 50%;
+     }
     
     .footer__social-icon {
         left: 25px;   
