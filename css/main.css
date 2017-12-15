@@ -248,7 +248,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .quote {
-    width: 580px;
+    width: 50%;
     padding-left: 30px;
     padding-top: 15px;
     text-align: left;
@@ -285,7 +285,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .dropcaps {
-    width: 580px;
+    width: 50%;
     font-family: 'Open Sans', sans-serif;
     color: #4e5860;
     font-size: 14px;
@@ -452,6 +452,14 @@ font-family: 'Raleway', sans-serif;
     .newsblock-small {
         width: 50%;
      }
+    
+    .quote {
+        width: 70%;
+    }
+    
+    .dropcaps {
+        width: 70%;
+    }
     
     .footer__social-icon {
         left: 25px;   
