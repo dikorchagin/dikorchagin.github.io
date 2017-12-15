@@ -57,7 +57,7 @@ $(document).ready(function() {
                     list.push(line);
                 }
                 
-                if (this.props.data.news.length > 0) {
+                if (this.props.data.quote.length > 0) {
                     line = <Header name="Цитаты" />;
                     list.push(line);
                     line =  <div class="page">
